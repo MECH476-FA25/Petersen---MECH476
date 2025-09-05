@@ -1,0 +1,37 @@
+CHAPTER 2 HOMEWORK
+
+Module 1: Basic Building Blocks
+- basic operators of R and using c() vectors
+
+Module 2: Workspace and Files
+- working with directories, your workspace, and files in R
+
+Module 3: Sequences of Numbers
+- creating series of numbers, incrementing, and repeating
+
+Module 4: Vectors
+- working with vectors and booleans in vectors
+- strings in vectors, paste() function
+
+Module 5: Missing Values
+- working with NAs, using booleans and functions to find NAs
+
+Module 6: Subsetting Vectors
+- index vectors, isolating elements
+- using booleans and operators
+
+Module 7: Matrices and Data Frames
+-dimensions and attributes of matrices
+- classes of data in matrices, data.frame
+
+Module 8: Logic
+- logical expressions, ==, <=, >=, &&, ||
+- logic in vectors
+
+Module 9: Functions
+- writing functions and anonymous functions
+- passing functions in functions
+
+Module 12: Looking at Data
+- reading and previewing data in R
+- summarizing data 
