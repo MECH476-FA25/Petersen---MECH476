@@ -47,9 +47,10 @@ car every year.
 
 ```{r load-packages}
 # do you need to install each R package?
-install.packages(tidyverse)
+
 # load packages for current R session
-library(tidyverse)
+library(dplyr)
+library(readr)
 ```
 
 # Question 1: Preparation
@@ -80,7 +81,7 @@ variable name (e.g., `ozone_ppm_hourly`).
  # select needed variables 
  # drop missing observations
  # rename main variable
-ppm_and_time <- read_csv("C:/Users/Vance/OneDrive - Colostate/Desktop/Petersen---MECH476/data/ftc_o3.csv") %>% dplyr::select(sample_measurement, datetime) %>% filter(!is.na(sample_measurement), !is.na(datetime))
+ppm_and_time <- read_csv("C:/Users/Vance/OneDrive - Colostate/Desktop/Petersen---MECH476/data/ftc_o3.csv") %>% dplyr::select(sample_measurement, datetime) %>% filter(!is.na(sample_measurement), !is.na(datetime)) %>% rename(ozone_ppm = sample_measurement)
 ```
 
 ## Examine Data
@@ -92,9 +93,9 @@ were no missing values for `datetime`.
 
 ```{r missing-data}
 # examine tibble
-is imported and manipulated properly
+
 # calculate number of missing observations 
-17,510 - 16,904 = 606
+#17,510 - 16,904 = 606
 ```
 
 # Question 2: Extract and Compare
