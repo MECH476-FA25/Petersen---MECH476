@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+<<<<<<< HEAD
+=======
+.gitignore
+.DS_Store
+>>>>>>> f38c78519d24ee51bf600765ae7f0f9ea92593c1
