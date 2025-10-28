@@ -190,7 +190,7 @@ senators %>%
 
 ```
 
-# XL: please cut the line after each %\>% and + 
+# XL: please cut the line after each %\>% and +
 
 \newpage
 
