@@ -129,7 +129,7 @@ salary_ps2 <- salary_ps2 %>%
 normd <- fitdistr(salary_ps2$log.salary, densfun = "normal")
 
 normd$estimate
-
+ 
 
 ```
 
